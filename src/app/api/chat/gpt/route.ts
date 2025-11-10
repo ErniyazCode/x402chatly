@@ -195,5 +195,5 @@ async function handleGPTChat(request: Request): Promise<Response> {
   }
 }
 
-// Export with X402 payment middleware for GPT-4
-export const POST = withX402Payment(handleGPTChat, 'gpt-4', false, '/api/chat/gpt');
+// Export with X402 payment middleware for GPT-5
+export const POST = withX402Payment(handleGPTChat, 'gpt-5', false, '/api/chat/gpt');
